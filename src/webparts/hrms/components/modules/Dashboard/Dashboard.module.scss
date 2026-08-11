@@ -1,0 +1,40 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.statRow {
+  display: flex;
+  gap: 14px;
+}
+
+.clockActions {
+  display: flex;
+  gap: 10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ringRow {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+}
+
+.projectList {
+  margin: 0;
+  padding-left: 18px;
+
+  li {
+    margin-bottom: 6px;
+  }
+}

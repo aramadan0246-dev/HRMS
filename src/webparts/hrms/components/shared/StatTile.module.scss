@@ -1,0 +1,33 @@
+.tile {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--hrmsSurface);
+  border: 1px solid var(--hrmsBorder);
+  border-radius: 10px;
+  padding: 16px;
+  flex: 1;
+}
+
+.iconWrap {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--hrmsAccentSoft);
+  color: var(--hrmsAccent);
+  font-size: 18px;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.label {
+  font-size: 12px;
+  color: var(--hrmsMuted);
+}

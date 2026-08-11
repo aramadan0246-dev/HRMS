@@ -1,0 +1,44 @@
+.shell {
+  --hrmsBg: #f3f5f4;
+  --hrmsSurface: #ffffff;
+  --hrmsInk: #1b2320;
+  --hrmsMuted: #62696a;
+  --hrmsBorder: #dde3e1;
+  --hrmsAccent: #1f6f6b;
+  --hrmsAccentSoft: #dcedea;
+  --hrmsHover: #eef3f2;
+
+  display: flex;
+  min-height: 640px;
+  background: var(--hrmsBg);
+  color: var(--hrmsInk);
+  font-size: 14px;
+}
+
+.shell.dark {
+  --hrmsBg: #12171a;
+  --hrmsSurface: #1a2125;
+  --hrmsInk: #e7ece9;
+  --hrmsMuted: #97a09c;
+  --hrmsBorder: #2b3336;
+  --hrmsAccent: #57c2bb;
+  --hrmsAccentSoft: #1f3532;
+  --hrmsHover: #212a2d;
+}
+
+.content {
+  flex: 1;
+  padding: 24px 28px;
+  overflow-y: auto;
+  min-width: 0;
+}
+
+.loadingRow {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.notice {
+  margin-bottom: 16px;
+}

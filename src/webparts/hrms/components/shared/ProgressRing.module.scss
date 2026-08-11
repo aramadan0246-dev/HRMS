@@ -1,0 +1,19 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.value {
+  font-size: 16px;
+  font-weight: 700;
+  fill: var(--hrmsInk);
+  font-variant-numeric: tabular-nums;
+}
+
+.label {
+  font-size: 11.5px;
+  color: var(--hrmsMuted);
+  text-align: center;
+}

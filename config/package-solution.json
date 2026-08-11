@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hrms-client-side-solution",
+    "id": "c0621193-0f44-4e0e-adab-c343fa434add",
+    "version": "1.1.1.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "hrms description"
+      },
+      "longDescription": {
+        "default": "hrms description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hrms Feature",
+        "description": "The feature that activates elements of the hrms solution.",
+        "id": "19dd9660-0d40-4c18-b97e-b2ab22aea991",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hrms.sppkg"
+  }
+}

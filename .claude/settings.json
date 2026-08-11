@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npx tsc --noEmit -p D:\\\\HRMS\\\\tsconfig.json 2>&1)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"D:\\\\HRMS\\\\docs\\\\superpowers\\\\specs\")"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hrms-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hrms/HrmsWebPart.js",
+          "manifest": "./src/webparts/hrms/HrmsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HrmsWebPartStrings": "lib/webparts/hrms/loc/{locale}.js"
+  }
+}

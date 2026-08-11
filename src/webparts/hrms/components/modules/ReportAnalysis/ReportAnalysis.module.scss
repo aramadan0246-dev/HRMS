@@ -1,0 +1,43 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.filterBar {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+
+  > div {
+    min-width: 160px;
+  }
+}
+
+.statRow {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.widgetRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.chartWrap {
+  overflow-x: auto;
+}

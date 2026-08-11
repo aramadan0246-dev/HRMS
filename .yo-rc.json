@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "hrms",
+    "environment": "spo",
+    "packageManager": "npm",
+    "skipFeatureDeployment": true,
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "Hrms",
+    "componentDescription": "HRMS single page application",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.23.1",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "hrms",
+    "libraryId": "c0621193-0f44-4e0e-adab-c343fa434add",
+    "solutionShortDescription": "hrms description",
+    "isDomainIsolated": false
+  }
+}
