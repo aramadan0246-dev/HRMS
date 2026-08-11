@@ -5,7 +5,7 @@
 
 .USAGE
   Install-Module PnP.PowerShell -Scope CurrentUser   # if not already installed
-  .\Provision-HrmsLists.ps1 -SiteUrl "https://7r4ptj.sharepoint.com/sites/HRMS"
+  .\Provision-HrmsLists.ps1 -SiteUrl "https://domain-name.sharepoint.com/sites/site-name"
 
   Uses the "HRMS Provisioning" Entra ID app (created via
   Register-PnPEntraIDAppForInteractiveLogin) for interactive sign-in.
